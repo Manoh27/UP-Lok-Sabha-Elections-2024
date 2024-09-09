@@ -7,7 +7,7 @@ Please find below details about my work,notaable features and references
 I have obtained the datasets from Wikipedia. Apart from the results, I have also considred different factors like Voter Turnout (in %), Turnout Drop/Increase (in %) compared to the prevous election and Winning margin (by votes polled) for every constituency in this Report.
 
 **ETL Process**
-ETL Processes involved in this project is of 2 steps. In the first step, URL of the website(wikipedia) is copied and pasted in Excel for extraction of Tabular data. There are different tabular data available in the web page. Required formatting and transformations have been done to make the data clean and then the file was saved. In the second step, the excel file that was saved was extracted into Power query, for conditional formatting. No DAX Queries were used for Conditional formatting.
+ETL Processes involved in this project consist of 2 steps. In the first step, URL of the website(wikipedia) is copied and pasted in Excel for extraction of Tabular data. There are different tabular data available in the web page. Required formatting and transformations have been done to make the data clean and then the file was saved. In the second step, the excel file that was saved was extracted into Power query, for conditional formatting. No DAX Queries were used for Conditional formatting.
 
 **Map Visuals**
 Power BI, doesn't have inbuilt maps containing boundaries of Indian Lok Sabha Contituencies. However it does support custom maps in topoJSON format. I got GIS Shape files from Bielefeld University website. You'll find map dumps in shp,dbf and shx formats. All you're supposed to do is combine those file formats in Map Shaper to have them in topoJSON format. To identify and 
